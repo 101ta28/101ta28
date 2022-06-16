@@ -1,4 +1,4 @@
-### こんにちは、あるいはこんばんは
+### Hello!! 
 
 [![101ta28's GitHub stats](https://github-readme-stats.vercel.app/api?username=101ta28
 )](https://github.com/anuraghazra/github-readme-stats)
