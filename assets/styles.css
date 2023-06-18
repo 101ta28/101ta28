@@ -1,50 +1,48 @@
-/* 全体のスタイル */
 body {
-	background-color: #000;
-	color: #fff;
-	font-family: 'Georgia', serif;
-	padding: 2em;
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	color: #000000;
+	line-height: 1.6;
 }
 
-/* ヘッダー */
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-	color: #FFD700;
-	border-bottom: 1px solid #FFD700;
-}
-
-a {
-	color: #FFD700;
-}
-
-/* リンク：ホバー */
-a:hover {
-	color: #fff;
-}
-
-/* ポストリスト */
-ul.post-list {
-	padding: 0;
-}
-
-ul.post-list li {
-	list-style-type: none;
-	border-bottom: 1px solid #555;
-	padding: 1em 0;
-}
-
-/* ポストタイトル */
-ul.post-list li a {
-	font-size: 1.2em;
+h3 {
 	font-weight: bold;
 }
 
-/* ポストの日付 */
-ul.post-list li .post-date {
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+a {
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+figcaption {
 	font-size: 0.8em;
-	color: #999;
+	color: #666666;
 }
