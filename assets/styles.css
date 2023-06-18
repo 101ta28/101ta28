@@ -1,0 +1,50 @@
+/* 全体のスタイル */
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Georgia', serif;
+	padding: 2em;
+}
+
+/* ヘッダー */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #FFD700;
+	border-bottom: 1px solid #FFD700;
+}
+
+a {
+	color: #FFD700;
+}
+
+/* リンク：ホバー */
+a:hover {
+	color: #fff;
+}
+
+/* ポストリスト */
+ul.post-list {
+	padding: 0;
+}
+
+ul.post-list li {
+	list-style-type: none;
+	border-bottom: 1px solid #555;
+	padding: 1em 0;
+}
+
+/* ポストタイトル */
+ul.post-list li a {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* ポストの日付 */
+ul.post-list li .post-date {
+	font-size: 0.8em;
+	color: #999;
+}
